@@ -115,11 +115,11 @@ var atalhosIniciais = [
   },
   {
     "nome": "TABELA DE TAXAS 2026",
-    "url": "file://arquivos/setores$/financeiro/%23EDER/SISTEMA%20DE%20FRASES%20PADROES/TABELA%20DE%20TAXAS%202026.pdf"
+    "url": "https://drive.google.com/file/d/1yaPRV_XNsM-ZnZC4DZ13uvRS7QAwXaLs/view?usp=drive_link"
   },
   {
     "nome": "RESOLUÇÕES UTEIS",
-    "url": "file://arquivos/setores$/financeiro/%23EDER/SISTEMA%20DE%20FRASES%20PADROES/RESOLUCOES%20UTEIS.pdf"
+    "url": "https://drive.google.com/file/d/10TM6ZYG0eKzYk_z8J2HKMOTrhui3mPVz/view?usp=drive_link"
   }
 ];
 var tiposProcessoSalvos = [
