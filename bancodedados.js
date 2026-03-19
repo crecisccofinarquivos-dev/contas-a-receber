@@ -1,4 +1,4 @@
-﻿var bibliotecaInicial = [
+var bibliotecaInicial = [
   {
     "titulo": "01 Cancelamento PF",
     "texto": "<div><p><b>Instruções para Cancelamento de Inscrição de Pessoa Física – CRECI-SC<br></b>Acesse o Portal de Atendimento Online pelo&nbsp; link:<br><a href=\"https://atendimento.crecisc.conselho.net.br/#/\">https://atendimento.crecisc.conselho.net.br/#/</a>.<br>1- Informe seu CPF.<br>2- Crie uma senha (não é necessário que seja a mesma utilizada no Recadastramento Obrigatório).<br>3- Clique em <strong>“Novo Requerimento”</strong>.<br>Selecione a categoria <strong>“REQUERIMENTOS PESSOA FÍSICA”</strong>.<br>Escolha a opção desejada:<br><strong>“Cancelamento da Inscrição de Pessoa Física”<br></strong><b>“Cancelamento da Inscrição por Falecimento”<br></b>Para informações adicionais sobre o processo, entre em contato com a Secretaria do<br>Conselho pelo e-mail: <b>secretaria@creci-sc.gov.br<br></b><strong>Observação:</strong> Conforme a Portaria nº 27, de 19 de janeiro de 2022, se o desligamento do<br>Conselho ocorrer <b>até 31 de março de cada ano</b>, o(a) corretor(a) <b>ficará isento(a) do<br>pagamento da anuidade daquele ano.</b> Após essa data, a anuidade será cobrada<br><b>proporcionalmente</b> aos meses em que a inscrição permaneceu ativa.<br>Para verificar sua situação financeira, estamos disponíveis pelo e-mail:<br><b>financeiro@crecisc.gov.br<br></b>Estamos à disposição para auxiliá-lo(a) em qualquer dúvida.</p></div>"
@@ -115,11 +115,11 @@ var atalhosIniciais = [
   },
   {
     "nome": "TABELA DE TAXAS 2026",
-    "url": "https://drive.google.com/file/d/1yaPRV_XNsM-ZnZC4DZ13uvRS7QAwXaLs/view?usp=drive_link"
+    "url": "https://drive.google.com/file/d/1yaPRV_XNsM-ZnZC4DZ13uvRS7QAwXaLs/view"
   },
   {
     "nome": "RESOLUÇÕES UTEIS",
-    "url": "https://drive.google.com/file/d/10TM6ZYG0eKzYk_z8J2HKMOTrhui3mPVz/view?usp=drive_link"
+    "url": "https://drive.google.com/file/d/10TM6ZYG0eKzYk_z8J2HKMOTrhui3mPVz/view"
   }
 ];
 var tiposProcessoSalvos = [
@@ -127,8 +127,75 @@ var tiposProcessoSalvos = [
     "nome": "REEMBOLSO",
     "andamentos": [
       {
-        "titulo": "DESPACHO TESOUREIRO",
-        "texto": "Após analise encaminho o protocolo para preparo de documentação e posterior despacho do Diretor Tesoureiro."
+        "titulo": "Despacho Tesoureiro",
+        "texto": "Após análise encaminho o protocolo para preparo de documentação e posterior despacho do Diretor Tesoureiro."
+      },
+      {
+        "titulo": "Andamento Reembolso ",
+        "texto": "Encaminhado para análise Eder. "
+      },
+      {
+        "titulo": "Assinatura Tesoureiro",
+        "texto": "Aguardando assinatura Diretor Tesoureiro. "
+      },
+      {
+        "titulo": "Link de Assinatura Gerado",
+        "texto": "Link de assinatura gerado, remessa do dia --/--/----."
+      }
+    ]
+  },
+  {
+    "nome": "ISENÇÃO GRAVIDEZ/ADOÇÃO",
+    "andamentos": [
+      {
+        "titulo": "Andamento quando anuidade Futura. ",
+        "texto": "Documentação analisada e de acordo com a legislação. Aguardando lançamento para posterior baixa da anuidade."
+      },
+      {
+        "titulo": "Andamento quando anuidade Atual.",
+        "texto": "Documentação analisada e de acordo com a legislação. Aguardando baixa da anuidade atual. "
+      },
+      {
+        "titulo": "Protocolo Finalizado",
+        "texto": "Pedido deferido, cumpridas as formalidades encaminhamos o protocolo ao arquivo.\n\n*Mudar para arquivado. "
+      }
+    ]
+  },
+  {
+    "nome": "REMISSÃO POR DOENÇA",
+    "andamentos": [
+      {
+        "titulo": "Andamento Remissão",
+        "texto": "Segue para parecer jurídico.\n\n"
+      },
+      {
+        "titulo": "Solicitação de Certidão",
+        "texto": "Solicito certidão afim de instruir processo de remissão/isenção. \n"
+      },
+      {
+        "titulo": "Encaminhamento Sessão Plenária",
+        "texto": "Processo encaminhado para plenária de --/--/----. "
+      },
+      {
+        "titulo": "Deferimento na Sessão Plenária",
+        "texto": "Processo deferido na SP --/-- aguardando ata da próxima SP para posterior envio ao COFECI. "
+      }
+    ]
+  },
+  {
+    "nome": "BAIXA DE DÉBITOS",
+    "andamentos": [
+      {
+        "titulo": "Baixa de Débitos Realizada",
+        "texto": "Débitos baixados conforme solicitação, cumpridas as formalidades encaminho ao arquivo."
+      },
+      {
+        "titulo": "Tramitação baixa de Débitos",
+        "texto": "Débitos baixados conforme solicitação, devolvo ao setor de origem para tramitação."
+      },
+      {
+        "titulo": "Baixa de Débitos conforme Parecer Jurídico",
+        "texto": "Débitos baixados conforme determina parecer jurídico ."
       }
     ]
   }
